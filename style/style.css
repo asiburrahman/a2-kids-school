@@ -294,12 +294,36 @@ footer{
     padding: 50px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 .adu-img{
     display: flex;
     align-items: center;
+    justify-content: start;
     gap: 5px;
+    margin-bottom: 10px;
+}
+.adu-img h1{
+    font-size: 2rem;
+}
+
+.footer-section h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-section p{
+    font-size: 1rem;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon-mg img{
+    width: 15%;
+    margin-right: 12px;
+    margin-top: 10px;
 }
 
 /* Responsive style section */
@@ -372,5 +396,21 @@ footer{
 .inner-content h2{
     font-size: .5rem;
 }
+/* Footer section */
+.footer-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
 }
 
