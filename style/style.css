@@ -92,6 +92,16 @@ header, menu , .story-container , .footer-section {
     display: none;
 }
 
+/* Marquee section */
+
+.marquee-tag {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    
+}
 
 /* Nav section start */
 
@@ -206,7 +216,7 @@ justify-content: center;
 
 .standard-arrow{
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 170%;
     font-weight: 700;
     bottom: -100px;
     left: 45%;
